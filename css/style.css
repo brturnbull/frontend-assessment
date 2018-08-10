@@ -1,0 +1,75 @@
+body {
+  font-family: "futura-pt", "Futura", "Trebuchet MS", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 1.8px;
+  color: #262833;
+  font-weight: 200; }
+
+.top {
+  margin-bottom: 5vh;
+  height: 60vh;
+  background: url("http://via.placeholder.com/1440x650");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+  .top .top-content {
+    margin: 0 auto; }
+
+div.container {
+  margin: 0 auto;
+  width: 70%; }
+  div.container .card {
+    margin: 2vh;
+    border-radius: 5px;
+    position: relative; }
+    div.container .card .card-content {
+      padding: 3px;
+      font-size: 1.2vw; }
+    div.container .card button {
+      border: 2px solid black;
+      border-radius: 15px;
+      width: 40%;
+      display: block;
+      margin: 0 auto;
+      padding: 7px;
+      font-weight: bold; }
+
+@media only screen and (max-width: 600px) {
+  .top {
+    background: url("http://via.placeholder.com/600x600"); }
+
+  div.container .card .card-content {
+    font-size: 3vw; } }
+.title2 {
+  background-color: peachpuff;
+  height: 30vh;
+  font-style: "futura-pt", "Futura", "Trebuchet MS", "Arial"; }
+  .title2 h1 {
+    background: url("https://www.broadsheet.com.au/media/cache/5a/92/5a92a46ac1e5652f2b8603d920d23c7e.jpg");
+    text-align: center;
+    line-height: 30vh;
+    vertical-align: middle;
+    color: #fff;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    letter-spacing: 5px; }
+
+#accordion {
+  margin: 0 auto; }
+  #accordion h3 {
+    text-transform: uppercase;
+    background-color: #edd3c1;
+    border-bottom: 5px solid white;
+    padding: 10px; }
+  #accordion p {
+    padding: 10px; }
+  #accordion .list {
+    list-style: circle; }
+  #accordion ul {
+    list-style: circle; }
+
+/*# sourceMappingURL=style.css.map */
